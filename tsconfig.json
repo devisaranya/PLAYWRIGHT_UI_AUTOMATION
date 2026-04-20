@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "types": ["node"],
+        "paths": {
+            "@e2e/*":["e2e/*"],
+            "@pages/*":["e2e/pages/*"],
+            "@config/*":["e2e/config/*"]
+        }
+    }
+}
