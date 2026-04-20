@@ -7,7 +7,7 @@ import { getEmployeeDetails } from "../resources/TestData/GetEmployeeDetails";
 
 
 
-test.only("Add new employee", async({page,loginPage,homePage,addEmployee})=>{
+test("Add new employee", async({page,loginPage,homePage,addEmployee})=>{
 
     await loginPage.navigateToLoginPage();
     await loginPage.loginToThePage();
